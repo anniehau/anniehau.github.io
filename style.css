@@ -3,39 +3,57 @@
 }
 
 .header-photo {
-    float:left;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 10% 50%
 }
 
 body {
-    background-color: whitesmoke;
-    color:#3A3238;
+    color: #525252;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    color: #E17A89; 
 }
 
 h2 {
-    font-family: Helvetica, sans-serif;
+    color: #E17A89;    
+}
+
+.sub-title {
+    line-height: 25%;
+}
+
+.links-button {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border-style: none;
 }
 
 #description {
-    font-family: Arial, Helvetica, sans-serif;
-    color:#4C5760;
+
 }
 
 #sk-translation {
-    font-size:1.3em;
+
 }
 
 #sk-management {
-    font-size:1.15em;
+
 }
 
 #sk-webdev {
-    font-size:1em;
+
 }
 
 #skills {
-    color:#4C5760;
+
 }
