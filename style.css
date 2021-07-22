@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+    color:#3A3238;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+#description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-color:#4C5760;
+}
+
+#sk-translation {
+    font-size:1.3em;
+}
+
+#sk-management {
+    font-size:1.15em;
+}
+
+#sk-webdev {
+    font-size:1em;
+}
+
+#skills {
+    font-color:#4C5760;
+}
