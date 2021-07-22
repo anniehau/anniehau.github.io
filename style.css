@@ -1,17 +1,6 @@
-.heading {
-    text-align:left;
-}
-
-.header-photo {
-    float: left;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 10% 50%
-}
-
+/* Estilos de tags */
 body {
+    background-color: #fff;
     color: #525252;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -25,7 +14,21 @@ h2 {
     color: #E17A89;    
 }
 
-.sub-title {
+/* Estilos de classes */
+.heading {
+    text-align:left;
+}
+
+.heading-photo {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 10% 50%
+}
+
+.heading-title {
     line-height: 25%;
 }
 
@@ -36,4 +39,8 @@ h2 {
     padding: 5px;
     outline: none;
     border-style: none;
+}
+
+.heading-description {
+    font-family: Helvetica, sans-serif;
 }
