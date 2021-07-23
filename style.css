@@ -1,4 +1,4 @@
-/* Estilos de tags */
+/* Tags */
 body {
     background-color: #fff;
     color: #525252;
@@ -6,30 +6,41 @@ body {
     font-weight: 500;
 }
 
+h1, h2 {
+    color: #E17A89;
+}
+
 h1 {
-    color: #E17A89; 
+    text-align: center;
 }
 
-h2 {
-    color: #E17A89;    
-}
-
-/* Estilos de classes */
+/* Sessões */
 .heading {
-    text-align:left;
+    background-color: #E3E3E3;
+}
+
+.section, .photo {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 .heading-photo {
     float: left;
-    width: 200px;
-    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: 10% 50%
-}
+    object-position: 10% 50%;
+    background-color: white;
+    padding: 10px;
+} 
 
 .heading-title {
-    line-height: 25%;
+    clear: both;
+}
+
+.links {
+    width: 50%;
+    margin: auto;
 }
 
 .links-button {
@@ -44,4 +55,8 @@ h2 {
 
 .heading-description {
     font-family: Helvetica, sans-serif;
+    text-align: left;
+    margin: auto;
 }
+
+/* Elementos */
