@@ -12,12 +12,12 @@ h1, h2 {
 
 h1 {
     text-align: center;
-    line-height: 10px;
+    line-height: 0px;
 }
 
 /* Sessões */
 .heading {
-    background-color: #E3E3E3;
+    background-color: #e7e7f0;
     padding-bottom: 85px;
 }
 
@@ -50,6 +50,12 @@ h1 {
     outline: none;
     border-style: none;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.links-button:hover {
+    background-color: #666;
+    cursor: pointer;
 }
 
 .skills-odd {
