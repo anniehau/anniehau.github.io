@@ -12,12 +12,13 @@ h1, h2 {
 
 h1 {
     text-align: center;
+    line-height: 10px;
 }
 
 /* Sessões */
 .heading {
     background-color: #E3E3E3;
-    padding-bottom: 60px;
+    padding-bottom: 85px;
 }
 
 .skills {
@@ -32,7 +33,9 @@ h1 {
     border-radius: 50%;
     object-fit: cover;
     object-position: 10% 50%;
-    margin: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
 } 
 
 .heading-description {
@@ -46,6 +49,7 @@ h1 {
     padding: 5px;
     outline: none;
     border-style: none;
+    text-decoration: none;
 }
 
 .skills-odd {
