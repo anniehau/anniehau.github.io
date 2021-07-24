@@ -17,30 +17,26 @@ h1 {
 /* Sessões */
 .heading {
     background-color: #E3E3E3;
+    padding-bottom: 60px;
 }
 
-.section, .photo {
-    display: block;
-    margin: auto;
-    width: 50%;
+.skills {
+    text-align: center;
+    list-style-position: inside;
 }
 
 .heading-photo {
     float: left;
+    padding: 10px;
+    background-color: white;
     border-radius: 50%;
     object-fit: cover;
     object-position: 10% 50%;
-    background-color: white;
-    padding: 10px;
+    margin: 50px;
 } 
 
-.heading-title {
-    clear: both;
-}
-
-.links {
-    width: 50%;
-    margin: auto;
+.heading-description {
+    font-family: Helvetica, sans-serif;
 }
 
 .links-button {
@@ -50,13 +46,10 @@ h1 {
     padding: 5px;
     outline: none;
     border-style: none;
-    text-decoration: none;
 }
 
-.heading-description {
-    font-family: Helvetica, sans-serif;
-    text-align: left;
-    margin: auto;
+.skills-odd {
+    color: gray;
 }
 
 /* Elementos */
