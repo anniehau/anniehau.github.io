@@ -1,69 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap');
+
 /* Tags */
-body {
-    background-color: #fff;
-    color: #525252;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+
+* {
+  margin: 0 0;
 }
 
-h1, h2 {
-    color: #E17A89;
+body {
+  background-color: rgb(249, 249, 249);
+  font-family: 'Raleway', 'Lora', sans-serif;
 }
 
 h1 {
-    text-align: center;
-    line-height: 0px;
+  font-size: xxx-large;
+  font-weight: 400;
+  color: rgb(75, 75, 75);
 }
 
-/* Sessões */
-.heading {
-    background-color: #e7e7f0;
-    padding-bottom: 85px;
+/* Sections */
+
+.main-header {
+  padding: 50px 0px;
 }
 
-.skills {
-    display: table; 
-    margin: 0 auto;
-    text-align: left;
+.main-header nav {
+  display: flex;
+  justify-content: center;
 }
 
-.heading-photo {
-    float: left;
-    padding: 10px;
-    background-color: white;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 10% 50%;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 25px;
-} 
-
-.heading-description {
-    font-family: Helvetica, sans-serif;
+.banner-img {
+  z-index: -1;
+  position: absolute;
+  background-image: url(./webdesign-header.jpg);
+  opacity: .8;
+  width: 100%;
+  height: 200px;
+  padding: 100px 0;
 }
 
-.links-button {
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
-    outline: none;
-    border-style: none;
-    text-decoration: none;
-    transition: 0.3s;
+.banner {
+  display: flex;
+  border: 10px rgb(0, 0, 0, 0.1);
+  border-style: solid none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 380px;
+  font-family: 'Lora';
+  background-color: rgb(0, 0, 0, 0.2);
 }
 
-.links-button:hover {
-    background-color: #666;
-    cursor: pointer;
+.banner nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.skills-odd {
-    color: gray;
+/* Elements */
+.main-header h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-/* Elementos */
-.skills h2 {
-    text-align: center;
+.main-header nav hr {
+  align-self: center;
+  height: 1px;
+  width: 15%;
+  margin: 0 40px;
+  background-color: rgb(200, 200, 200);
+  border: 0;
+}
+
+.main-header nav a {
+  font-size: large;
+  padding: 10px 20px;
+  color:rgb(122, 122, 122)
+}
+
+.main-header nav a:hover {
+  cursor: pointer;
+  background-color: rgb(230, 236, 255);
+  transition: .2s;
+}
+
+.banner h1 {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.banner p {
+  align-self: center;
+  width: 60%;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.banner nav button {
+  color: white;
+  background-color: rgb(50, 50, 50);
+  font-size: 16px;
+  font-weight: 500;
+  height: 35px;
+  width: 100px;
+  margin: 0 10px;
+  border: 0;
+}
+
+.banner nav button:hover {
+  cursor: pointer;
+  background-color: rgb(75, 75, 75);
+  transition: .2s;
 }
