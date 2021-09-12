@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Portfólio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio da Annie Haurani</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/e72482f533.js" crossorigin="anonymous"></script>
 </head>
@@ -10,23 +13,48 @@
     <h1>ANNIE HAURANI</h1>
     <nav>
       <hr>
-      <a><i class="fas fa-home"></i> Principal</a>
-      <a><i class="fas fa-paper-plane"></i> Projetos</a>
-      <a><i class="fas fa-user-alt"></i> Contato</a>
+      <a href="./index.html"><i class="fas fa-home"></i> Principal</a>
+      <a href="./projects.html"><i class="fas fa-paper-plane"></i> Projetos</a>
+      <a href="./contact.html"><i class="fas fa-user-alt"></i> Contato</a>
       <hr>
     </nav>
   </header>
   <div class="banner-img"></div>
   <main class="banner">
     <h1>Web Developer</h1>
-    <p>Olá, meu nome é Annie e sou uma desenvolvedora web atualmente morando em Peruibe/SP. Estou estudando programação na Trybe!</p>
+    <p>Olá, meu nome é Annie e sou uma desenvolvedora web morando em Peruibe, São Paulo. Estou estudando programação na Trybe!</p>
     <nav>
-      <button><i class="fab fa-linkedin"></i> Linkedin</button>
-      <button><i class="fab fa-github"></i> GitHub</button>
+      <button><a href="https://www.linkedin.com/in/annie-haurani/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></button>
+      <button><a href="https://github.com/anniehau/" target="_blank"><i class="fab fa-github"></i> GitHub</a></button>
     </nav>
   </main>
-  <footer>
-    <p></p>
+  <aside class="aside-card about-me">
+    <img class="aside-img" id="work-photo" src="work_photo.jpg" alt="Minha foto">
+    <article class="card">
+      <i class="fas fa-female fa-2x"></i>
+      <h1>Sobre Mim</h1>
+      <p>Organizada, diligente e flexível. Sou uma pessoa bem focada: tenho facilidade de aprender e quando algo me dá dificuldade coloco bastante esforço para passar por essa parede. Pratico escuta ativa e tenho facílidade em empatizar com as pessoas.</p>
+    </article>
+  </aside>
+  <aside class="aside-card hobbies">
+    <article class="card">
+      <i class="fas fa-pencil-ruler fa-2x"></i>
+      <h1>Meus Hobbies</h1>
+      <p>Me considero uma pessoa criativa, então desde criança meus hobbies foram coisas como <span class="underline">desenhar, compôr músicas e escrever histórias.</span> Eu gostava de combinar essas habilidades em jogos criados utilizando as ferramentas RPG Maker e Game Maker, o que me deu um background de programação e me levou à essa paixão!</p>
+    </article>
+    <img class="aside-img" id="hobbies-img" src="hobbies.png" alt="Imagem icone hobbies">
+  </aside>
+  <aside class="aside-card trybe">
+    <img class="aside-img" id="trybe-img" src="trybe.png" alt="Imagem icone hobbies">
+    <article class="card">
+      <i class="fas fa-rocket fa-2x"></i>
+      <h1>Trybe</h1>
+      <p>Em julho de 2021 comecei minha jornada com a Trybe, que realmente mudou minha vida. Descobri demais sobre programação, suas técnicas e metodologias, e também como soft skills é importante. E continuo aprendendo todo dia!</p>
+    </article>
+  </aside>
+  <footer class="main-footer">
+    <p>Página feita manualmente por mim</p>
+    <h3>© Annie Haurani, 2021</h3>
   </footer>
 </body>
 </html>
