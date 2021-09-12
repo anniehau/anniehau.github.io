@@ -67,11 +67,14 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  color: rgb(249, 249, 249);
-  width: 500px;
-  height: 500px;
+  justify-items: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
   border-radius: 15%;
   margin: 50px 50px;
+  color: rgb(249, 249, 249);
 }
 
 .aside-card {
@@ -127,7 +130,6 @@ h1 {
 
 .banner p {
   align-self: center;
-  width: 60%;
   font-weight: 500;
   font-size: 18px;
   text-align: center;
@@ -162,8 +164,11 @@ h1 {
 }
 
 .aside-card h1 {
+  flex-basis: 100%;
+  text-align: center;
   color: rgb(249, 249, 249);
   font-weight: 700;
+  font-size: 42px;
 }
 
 .aside-card p {
